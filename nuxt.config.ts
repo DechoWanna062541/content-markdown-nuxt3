@@ -37,5 +37,5 @@ export default defineNuxtConfig({
     injectPosition: 'first',
     viewer: true,
   },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/scss/app.scss'],
 });

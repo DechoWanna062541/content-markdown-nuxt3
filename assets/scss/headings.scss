@@ -1,67 +1,70 @@
 /* Headings */
-h1 {
+.prose {
+  h1 {
     font-size: 1.25rem;
     font-weight: bold;
     color: $gray-900-color;
-}
-h2 {
+  }
+  h2 {
     font-size: 1.125rem;
     font-weight: 600;
     color: $gray-900-color;
-}
-h3 {
+  }
+  h3 {
     font-size: 1rem;
     font-weight: 600;
     color: $gray-600-color;
-}
-h4 {
+  }
+  h4 {
     font-size: 0.875rem;
     font-weight: 600;
     color: $gray-900-color;
-}
-h5 {
+  }
+  h5 {
     font-size: 0.875rem;
     font-weight: 500;
     color: $gray-900-color;
-}
-h6 {
+  }
+  h6 {
     font-size: 0.75rem;
     font-weight: 400;
     color: $gray-400-color;
-}
-p {
+  }
+  p {
     font-size: 0.875rem;
     font-weight: 400;
     color: $gray-500-color;
-}
-small {
+  }
+  small {
     font-size: 0.75rem;
     line-height: 1;
     font-weight: 400;
     color: $gray-900-color;
-}
+  }
 
-.text-2xl, h1 big {
+  .text-2xl,
+  h1 big {
     font-size: 1.5rem;
+  }
 }
 
 .opd {
-    &-list,
-    &-list-icons,
-    &-ordered-list {
-        list-style-type: disc;
-        list-style-position: inside;
-        font-size: 0.875rem;
-        font-weight: 400;
-        color: $gray-500-color;
+  &-list,
+  &-list-icons,
+  &-ordered-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: $gray-500-color;
+  }
+  &-ordered-list {
+    list-style-type: decimal;
+  }
+  &-list-icons {
+    li {
+      display: flex;
+      align-items: center;
     }
-    &-ordered-list {
-        list-style-type: decimal;
-    }
-    &-list-icons {
-        li {
-            display: flex;
-            align-items: center;
-        }
-    }
+  }
 }

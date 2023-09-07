@@ -4,7 +4,11 @@
 @import 'color.scss';
 @import 'shadows.scss';
 @import 'headings.scss';
-
+:root {
+  --background-color: #fff;
+  --text-color: #121416d8;
+  --link-color: #543fd7;
+}
 body {
   min-width: 300px;
   font-family: 'ibm_plex_sans_thai', arial;

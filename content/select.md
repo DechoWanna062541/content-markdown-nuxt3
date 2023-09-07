@@ -1,3 +1,1 @@
-# select
-
 :Selected
