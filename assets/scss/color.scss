@@ -1,0 +1,737 @@
+/* Background */
+.bg {
+  &-primary {
+    background-color: $primary-color;
+  }
+  &-default {
+    background-color: $default-color;
+  }
+  &-white {
+    background-color: $white-color;
+  }
+  &-black {
+    background-color: $black-color;
+  }
+  &-gray {
+    &-50 {
+      background-color: $gray-50-color;
+    }
+    &-100 {
+      background-color: $gray-100-color;
+    }
+    &-200 {
+      background-color: $gray-200-color;
+    }
+    &-300 {
+      background-color: $gray-300-color;
+    }
+    &-400 {
+      background-color: $gray-400-color;
+    }
+    &-500 {
+      background-color: $gray-500-color;
+    }
+    &-600 {
+      background-color: $gray-600-color;
+    }
+    &-700 {
+      background-color: $gray-700-color;
+    }
+    &-800 {
+      background-color: $gray-800-color;
+    }
+    &-900 {
+      background-color: $gray-900-color;
+    }
+  }
+  &-green {
+    background-color: $green-color;
+    &-50 {
+      background-color: $green-50-color;
+    }
+    &-100 {
+      background-color: $green-100-color;
+    }
+    &-200 {
+      background-color: $green-200-color;
+    }
+    &-300 {
+      background-color: $green-300-color;
+    }
+    &-400 {
+      background-color: $green-400-color;
+    }
+    &-500 {
+      background-color: $green-500-color;
+    }
+    &-600 {
+      background-color: $green-600-color;
+    }
+    &-700 {
+      background-color: $green-700-color;
+    }
+    &-800 {
+      background-color: $green-800-color;
+    }
+    &-900 {
+      background-color: $green-900-color;
+    }
+  }
+  &-yellow {
+    background-color: $yellow-color;
+    &-50 {
+      background-color: $yellow-50-color;
+    }
+    &-100 {
+      background-color: $yellow-100-color;
+    }
+    &-200 {
+      background-color: $yellow-200-color;
+    }
+    &-300 {
+      background-color: $yellow-300-color;
+    }
+    &-400 {
+      background-color: $yellow-400-color;
+    }
+    &-500 {
+      background-color: $yellow-500-color;
+    }
+    &-600 {
+      background-color: $yellow-600-color;
+    }
+    &-700 {
+      background-color: $yellow-700-color;
+    }
+    &-800 {
+      background-color: $yellow-800-color;
+    }
+    &-900 {
+      background-color: $yellow-900-color;
+    }
+  }
+  &-blue {
+    background-color: $blue-color;
+    &-50 {
+      background-color: $blue-50-color;
+    }
+    &-100 {
+      background-color: $blue-100-color;
+    }
+    &-200 {
+      background-color: $blue-200-color;
+    }
+    &-300 {
+      background-color: $blue-300-color;
+    }
+    &-400 {
+      background-color: $blue-400-color;
+    }
+    &-500 {
+      background-color: $blue-500-color;
+    }
+    &-600 {
+      background-color: $blue-600-color;
+    }
+    &-700 {
+      background-color: $blue-700-color;
+    }
+    &-800 {
+      background-color: $blue-800-color;
+    }
+    &-900 {
+      background-color: $blue-900-color;
+    }
+  }
+  &-pink {
+    background-color: $pink-color;
+    &-50 {
+      background-color: $pink-50-color;
+    }
+    &-100 {
+      background-color: $pink-100-color;
+    }
+    &-200 {
+      background-color: $pink-200-color;
+    }
+    &-300 {
+      background-color: $pink-300-color;
+    }
+    &-400 {
+      background-color: $pink-400-color;
+    }
+    &-500 {
+      background-color: $pink-500-color;
+    }
+    &-600 {
+      background-color: $pink-600-color;
+    }
+    &-700 {
+      background-color: $pink-700-color;
+    }
+    &-800 {
+      background-color: $pink-800-color;
+    }
+    &-900 {
+      background-color: $pink-900-color;
+    }
+  }
+  &-red {
+    background-color: $red-color;
+    &-50 {
+      background-color: $red-50-color;
+    }
+    &-100 {
+      background-color: $red-100-color;
+    }
+    &-200 {
+      background-color: $red-200-color;
+    }
+    &-300 {
+      background-color: $red-300-color;
+    }
+    &-400 {
+      background-color: $red-400-color;
+    }
+    &-500 {
+      background-color: $red-500-color;
+    }
+    &-600 {
+      background-color: $red-600-color;
+    }
+    &-700 {
+      background-color: $red-700-color;
+    }
+    &-800 {
+      background-color: $red-800-color;
+    }
+    &-900 {
+      background-color: $red-900-color;
+    }
+  }
+  &-orange {
+    background-color: $orange-color;
+    &-50 {
+      background-color: $orange-50-color;
+    }
+    &-100 {
+      background-color: $orange-100-color;
+    }
+    &-200 {
+      background-color: $orange-200-color;
+    }
+    &-300 {
+      background-color: $orange-300-color;
+    }
+    &-400 {
+      background-color: $orange-400-color;
+    }
+    &-500 {
+      background-color: $orange-500-color;
+    }
+    &-600 {
+      background-color: $orange-600-color;
+    }
+    &-700 {
+      background-color: $orange-700-color;
+    }
+    &-800 {
+      background-color: $orange-800-color;
+    }
+    &-900 {
+      background-color: $orange-900-color;
+    }
+  }
+}
+
+/* Text */
+.text {
+  &-primary {
+    color: $primary-color;
+  }
+  &-default {
+    color: $default-color;
+  }
+  &-white {
+    color: $white-color;
+  }
+  &-black {
+    color: $black-color;
+  }
+  &-gray {
+    &-50 {
+      color: $gray-50-color;
+    }
+    &-100 {
+      color: $gray-100-color;
+    }
+    &-200 {
+      color: $gray-200-color;
+    }
+    &-300 {
+      color: $gray-300-color;
+    }
+    &-400 {
+      color: $gray-400-color;
+    }
+    &-500 {
+      color: $gray-500-color;
+    }
+    &-600 {
+      color: $gray-600-color;
+    }
+    &-700 {
+      color: $gray-700-color;
+    }
+    &-800 {
+      color: $gray-800-color;
+    }
+    &-900 {
+      color: $gray-900-color;
+    }
+  }
+  &-green {
+    color: $green-color;
+    &-50 {
+      color: $green-50-color;
+    }
+    &-100 {
+      color: $green-100-color;
+    }
+    &-200 {
+      color: $green-200-color;
+    }
+    &-300 {
+      color: $green-300-color;
+    }
+    &-400 {
+      color: $green-400-color;
+    }
+    &-500 {
+      color: $green-500-color;
+    }
+    &-600 {
+      color: $green-600-color;
+    }
+    &-700 {
+      color: $green-700-color;
+    }
+    &-800 {
+      color: $green-800-color;
+    }
+    &-900 {
+      color: $green-900-color;
+    }
+  }
+  &-yellow {
+    color: $yellow-color;
+    &-50 {
+      color: $yellow-50-color;
+    }
+    &-100 {
+      color: $yellow-100-color;
+    }
+    &-200 {
+      color: $yellow-200-color;
+    }
+    &-300 {
+      color: $yellow-300-color;
+    }
+    &-400 {
+      color: $yellow-400-color;
+    }
+    &-500 {
+      color: $yellow-500-color;
+    }
+    &-600 {
+      color: $yellow-600-color;
+    }
+    &-700 {
+      color: $yellow-700-color;
+    }
+    &-800 {
+      color: $yellow-800-color;
+    }
+    &-900 {
+      color: $yellow-900-color;
+    }
+  }
+  &-blue {
+    color: $blue-color;
+    &-50 {
+      color: $blue-50-color;
+    }
+    &-100 {
+      color: $blue-100-color;
+    }
+    &-200 {
+      color: $blue-200-color;
+    }
+    &-300 {
+      color: $blue-300-color;
+    }
+    &-400 {
+      color: $blue-400-color;
+    }
+    &-500 {
+      color: $blue-500-color;
+    }
+    &-600 {
+      color: $blue-600-color;
+    }
+    &-700 {
+      color: $blue-700-color;
+    }
+    &-800 {
+      color: $blue-800-color;
+    }
+    &-900 {
+      color: $blue-900-color;
+    }
+  }
+  &-pink {
+    color: $pink-color;
+    &-50 {
+      color: $pink-50-color;
+    }
+    &-100 {
+      color: $pink-100-color;
+    }
+    &-200 {
+      color: $pink-200-color;
+    }
+    &-300 {
+      color: $pink-300-color;
+    }
+    &-400 {
+      color: $pink-400-color;
+    }
+    &-500 {
+      color: $pink-500-color;
+    }
+    &-600 {
+      color: $pink-600-color;
+    }
+    &-700 {
+      color: $pink-700-color;
+    }
+    &-800 {
+      color: $pink-800-color;
+    }
+    &-900 {
+      color: $pink-900-color;
+    }
+  }
+  &-red {
+    color: $red-color;
+    &-50 {
+      color: $red-50-color;
+    }
+    &-100 {
+      color: $red-100-color;
+    }
+    &-200 {
+      color: $red-200-color;
+    }
+    &-300 {
+      color: $red-300-color;
+    }
+    &-400 {
+      color: $red-400-color;
+    }
+    &-500 {
+      color: $red-500-color;
+    }
+    &-600 {
+      color: $red-600-color;
+    }
+    &-700 {
+      color: $red-700-color;
+    }
+    &-800 {
+      color: $red-800-color;
+    }
+    &-900 {
+      color: $red-900-color;
+    }
+  }
+  &-orange {
+    color: $orange-color;
+    &-50 {
+      color: $orange-50-color;
+    }
+    &-100 {
+      color: $orange-100-color;
+    }
+    &-200 {
+      color: $orange-200-color;
+    }
+    &-300 {
+      color: $orange-300-color;
+    }
+    &-400 {
+      color: $orange-400-color;
+    }
+    &-500 {
+      color: $orange-500-color;
+    }
+    &-600 {
+      color: $orange-600-color;
+    }
+    &-700 {
+      color: $orange-700-color;
+    }
+    &-800 {
+      color: $orange-800-color;
+    }
+    &-900 {
+      color: $orange-900-color;
+    }
+  }
+}
+
+/* Border */
+.border {
+  &-primary {
+    border-color: $primary-color;
+  }
+  &-default {
+    border-color: $default-color;
+  }
+  &-white {
+    border-color: $white-color;
+  }
+  &-black {
+    border-color: $black-color;
+  }
+  &-gray {
+    &-50 {
+      border-color: $gray-50-color;
+    }
+    &-100 {
+      border-color: $gray-100-color;
+    }
+    &-200 {
+      border-color: $gray-200-color;
+    }
+    &-300 {
+      border-color: $gray-300-color;
+    }
+    &-400 {
+      border-color: $gray-400-color;
+    }
+    &-500 {
+      border-color: $gray-500-color;
+    }
+    &-600 {
+      border-color: $gray-600-color;
+    }
+    &-700 {
+      border-color: $gray-700-color;
+    }
+    &-800 {
+      border-color: $gray-800-color;
+    }
+    &-900 {
+      border-color: $gray-900-color;
+    }
+  }
+  &-green {
+    border-color: $green-color;
+    &-50 {
+      border-color: $green-50-color;
+    }
+    &-100 {
+      border-color: $green-100-color;
+    }
+    &-200 {
+      border-color: $green-200-color;
+    }
+    &-300 {
+      border-color: $green-300-color;
+    }
+    &-400 {
+      border-color: $green-400-color;
+    }
+    &-500 {
+      border-color: $green-500-color;
+    }
+    &-600 {
+      border-color: $green-600-color;
+    }
+    &-700 {
+      border-color: $green-700-color;
+    }
+    &-800 {
+      border-color: $green-800-color;
+    }
+    &-900 {
+      border-color: $green-900-color;
+    }
+  }
+  &-yellow {
+    border-color: $yellow-color;
+    &-50 {
+      border-color: $yellow-50-color;
+    }
+    &-100 {
+      border-color: $yellow-100-color;
+    }
+    &-200 {
+      border-color: $yellow-200-color;
+    }
+    &-300 {
+      border-color: $yellow-300-color;
+    }
+    &-400 {
+      border-color: $yellow-400-color;
+    }
+    &-500 {
+      border-color: $yellow-500-color;
+    }
+    &-600 {
+      border-color: $yellow-600-color;
+    }
+    &-700 {
+      border-color: $yellow-700-color;
+    }
+    &-800 {
+      border-color: $yellow-800-color;
+    }
+    &-900 {
+      border-color: $yellow-900-color;
+    }
+  }
+  &-blue {
+    border-color: $blue-color;
+    &-50 {
+      border-color: $blue-50-color;
+    }
+    &-100 {
+      border-color: $blue-100-color;
+    }
+    &-200 {
+      border-color: $blue-200-color;
+    }
+    &-300 {
+      border-color: $blue-300-color;
+    }
+    &-400 {
+      border-color: $blue-400-color;
+    }
+    &-500 {
+      border-color: $blue-500-color;
+    }
+    &-600 {
+      border-color: $blue-600-color;
+    }
+    &-700 {
+      border-color: $blue-700-color;
+    }
+    &-800 {
+      border-color: $blue-800-color;
+    }
+    &-900 {
+      border-color: $blue-900-color;
+    }
+  }
+  &-pink {
+    border-color: $pink-color;
+    &-50 {
+      border-color: $pink-50-color;
+    }
+    &-100 {
+      border-color: $pink-100-color;
+    }
+    &-200 {
+      border-color: $pink-200-color;
+    }
+    &-300 {
+      border-color: $pink-300-color;
+    }
+    &-400 {
+      border-color: $pink-400-color;
+    }
+    &-500 {
+      border-color: $pink-500-color;
+    }
+    &-600 {
+      border-color: $pink-600-color;
+    }
+    &-700 {
+      border-color: $pink-700-color;
+    }
+    &-800 {
+      border-color: $pink-800-color;
+    }
+    &-900 {
+      border-color: $pink-900-color;
+    }
+  }
+  &-red {
+    border-color: $red-color;
+    &-50 {
+      border-color: $red-50-color;
+    }
+    &-100 {
+      border-color: $red-100-color;
+    }
+    &-200 {
+      border-color: $red-200-color;
+    }
+    &-300 {
+      border-color: $red-300-color;
+    }
+    &-400 {
+      border-color: $red-400-color;
+    }
+    &-500 {
+      border-color: $red-500-color;
+    }
+    &-600 {
+      border-color: $red-600-color;
+    }
+    &-700 {
+      border-color: $red-700-color;
+    }
+    &-800 {
+      border-color: $red-800-color;
+    }
+    &-900 {
+      border-color: $red-900-color;
+    }
+  }
+  &-orange {
+    border-color: $orange-color;
+    &-50 {
+      border-color: $orange-50-color;
+    }
+    &-100 {
+      border-color: $orange-100-color;
+    }
+    &-200 {
+      border-color: $orange-200-color;
+    }
+    &-300 {
+      border-color: $orange-300-color;
+    }
+    &-400 {
+      border-color: $orange-400-color;
+    }
+    &-500 {
+      border-color: $orange-500-color;
+    }
+    &-600 {
+      border-color: $orange-600-color;
+    }
+    &-700 {
+      border-color: $orange-700-color;
+    }
+    &-800 {
+      border-color: $orange-800-color;
+    }
+    &-900 {
+      border-color: $orange-900-color;
+    }
+  }
+}
